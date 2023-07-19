@@ -1,0 +1,43 @@
+header {
+  width: 1110px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1019607843);
+  background-color: white;
+  border-radius: 0 0 30px 30px;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 1;
+}
+header div, header h2, header img {
+  background-color: white;
+}
+header .logo h2 {
+  font-weight: bold;
+}
+header .userUsage {
+  display: flex;
+  align-items: center;
+}
+header .userUsage .userStore {
+  display: flex;
+  height: 100%;
+  width: 100px;
+  justify-content: center;
+}
+header .userUsage .userStore img {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+header .userUsage .userSet button {
+  background-color: #222;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}/*# sourceMappingURL=header.style.css.map */

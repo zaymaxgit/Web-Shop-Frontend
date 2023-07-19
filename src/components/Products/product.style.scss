@@ -1,0 +1,87 @@
+.productsBlock{
+    width: 1110px;
+    height: 890px;
+    margin-top: 6rem;
+    .nameProducts{
+        padding: 0 0 30px;
+        font-size: 20px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+        .headphone{
+            box-shadow: 0px 0px 20px 0px #0000001A;
+            background-color: white;
+            min-width: 350px;
+            height: 407px;
+            border-radius: 30px;
+            overflow: hidden;
+            div,p,h3,img,span,s{
+                background-color: white;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .img{
+                margin-bottom: 2rem;
+            }
+            .nameProd{
+                p{
+                    color: #FFA542;
+                    font-weight: 600;
+                    font-size: 17px;
+                    position: relative;
+                    span{
+                        color: #ffa44291;
+                        position: absolute;
+                        font-size: 12px;
+                        top: 16px;
+                        left:0%;
+                        right: 0%;
+                        text-align: center;
+                    }
+                }
+            }
+            .buyProd{
+                margin-top: .3rem;
+                div{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-right: .6rem;
+                    }
+                }
+                p{
+                    color:#838383;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+            }
+            .nameProd,.buyProd{
+                display: flex;
+                width: 100%;
+                height: 50px;
+                justify-content: space-between;
+                align-items: center;
+                padding:  0 2rem;
+                button{
+                    width: 80px;
+                    height: 40px !important;
+                    border-radius: 10px;
+                    //background-color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border: none;
+                    height: 100%;
+                    &:hover{
+                        background-color: #FFA542;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
