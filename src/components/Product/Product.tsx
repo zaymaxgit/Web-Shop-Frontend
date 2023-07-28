@@ -1,4 +1,4 @@
-import "./product.style.css";
+import "./product.style.scss";
 import product from "../../assets/products/Image.png";
 import star from "../../assets/products/star.svg";
 

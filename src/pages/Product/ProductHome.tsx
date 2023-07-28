@@ -1,4 +1,4 @@
-import "./producthome.style.css";
+import "./producthome.style.scss";
 import { useLocation } from "react-router-dom";
 
 const ProductHome = () => {

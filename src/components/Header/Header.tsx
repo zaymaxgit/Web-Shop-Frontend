@@ -1,4 +1,4 @@
-import "../Header/header.style.css";
+import "../Header/header.style.scss";
 import like from "../../assets/userUsage/like.svg";
 import basket from "../../assets/userUsage/basket.svg";
 

@@ -1,6 +1,6 @@
 import Products from "../../components/Products/Products";
 import Basket from "../Basket/Basket";
-import "../Home/home.style.css";
+import "../Home/home.style.scss";
 import { Route, Routes } from "react-router-dom";
 import ProductHome from "../Product/ProductHome";
 

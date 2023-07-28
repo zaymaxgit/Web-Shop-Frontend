@@ -1,4 +1,4 @@
-import "./footer.style.css";
+import "./footer.style.scss";
 import vk from "../../assets/footer/VK.svg";
 import tg from "../../assets/footer/Telegram.svg";
 import wa from "../../assets/footer/Whatsapp.svg";
